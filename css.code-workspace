@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "css",
+			"path": "../../Downloads/The-Artbox/css"
+		},
+		{
+			"name": "the-artbox",
+			"path": "."
+		},
+		{
+			"name": "img",
+			"path": "../../Downloads/The-Artbox/img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "the-artbox"
+	}
+}
