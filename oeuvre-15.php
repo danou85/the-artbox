@@ -1,5 +1,4 @@
 <?php include('header.php'); ?>
-
 <main>
     <article id="detail-oeuvre">
         <div id="img-oeuvre">
