@@ -8,6 +8,6 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="Logo">
+        <img src="img/logo.png" alt="Logo">
         <h1>Bienvenue sur The Artbox</h1>
     </header>
