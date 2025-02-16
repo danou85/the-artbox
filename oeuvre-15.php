@@ -1,5 +1,8 @@
 <?php include('header.php'); ?>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0ee7ec5780adfd6e6719ac7b1d1464365033eefb
 <main>
     <article id="detail-oeuvre">
         <div id="img-oeuvre">
