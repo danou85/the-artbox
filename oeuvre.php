@@ -16,8 +16,10 @@ include 'oeuvres.php'; // Assurez-vous que ce fichier contient bien le tableau $
 
 <?php foreach ($oeuvres as $oeuvre) : ?>
     <div>
-        <img src="<?= htmlspecialchars($oeuvre['image']); ?>" alt="<?= htmlspecialchars($oeuvre['titre']); ?>" width="200">
-        <h2><?= htmlspecialchars($oeuvre['titre']); ?></h2>
+        <a href="oeuvre.php?id=<?= htmlspecialchars($oeuvre['id']); ?>">
+            <img src="<?= htmlspecialchars($oeuvre['image']); ?>" alt="<?= htmlspecialchars($oeuvre['titre']); ?>" width="200">
+            <h2><?= htmlspecialchars($oeuvre['titre']); ?></h2>
+        </a>
         <p><strong>Artiste :</strong> <?= htmlspecialchars($oeuvre['artiste']); ?></p>
         <p><?= htmlspecialchars($oeuvre['description']); ?></p>
         <hr>
