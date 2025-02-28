@@ -1,4 +1,5 @@
-< ?php
+<?php
+    echo "Fichier oeuvres.php chargé !<br>";
 $oeuvres = [
     
     [

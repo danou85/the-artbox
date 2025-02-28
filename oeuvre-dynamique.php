@@ -10,7 +10,7 @@
 
      foreach ($oeuvres as $oeuvre){
         echo "<article class='oeuvres'>";
-        echo "<a href='oeuvre-".$oeuvre['id'].".php'>"; // lien dynamique basé sur l'ID
+        echo "<a href='oeuvre.php?id=" . $oeuvre['id'] . "'>"; // lien dynamique basé sur l'ID
         echo "<img src='" . htmlspecialchars($oeuvre['image']) . "' alt='" . htmlspecialchars($oeuvre['titre']) . "' />";
         echo "<h2>" . htmlspecialchars($oeuvre['titre']) . "</h2>";
         echo "<p class='description'>" . htmlspecialchars($oeuvre['artiste']) . "</p>";
@@ -21,4 +21,3 @@
      </div>
  </main>
  <?php include('footer.php'); ?>
- 
